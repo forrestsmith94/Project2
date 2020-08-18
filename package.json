@@ -1,0 +1,38 @@
+{
+	"name": "project-2",
+	"version": "1.0.0",
+	"description": "A blogging app made using Handlebars and an Express server backed by a MySQL database with a Sequelize ORM and deployed on Heroku: [deployed_url_goes_here](*)",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon server.js",
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/NicChappell/project-2.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/NicChappell/project-2/issues"
+	},
+	"homepage": "https://github.com/NicChappell/project-2#readme",
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"express-handlebars": "^5.0.0",
+		"mysql2": "^2.1.0",
+		"sequelize": "^6.3.0",
+		"handlebars": "^4.7.6",
+		"koa": "^2.13.0",
+		"koa-bodyparser": "^4.3.0",
+		"koa-handlebars": "^1.0.0",
+		"koa-router": "^9.1.0",
+		"koa-static": "^5.0.0",
+		"koa-views": "^6.3.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	}
+}
